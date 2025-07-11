@@ -1,0 +1,74 @@
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 0.625rem;
+  --background: #1c1c1c;
+  --foreground: #ffffff;
+  --card: #202020;
+  --card-foreground: #ffffff;
+  --popover: #202020;
+  --popover-foreground: #ffffff;
+  --primary: #22c55e; /* Green Accent */
+  --primary-foreground: #ffffff;
+  --secondary: #2a2a2a;
+  --secondary-foreground: #ffffff;
+  --muted: #333333;
+  --muted-foreground: #aaaaaa;
+  --accent: #16a34a;
+  --accent-foreground: #ffffff;
+  --destructive: #e11d48;
+  --border: #444444;
+  --input: #333333;
+  --ring: #22c55e;
+
+  --sidebar: #1c1c1c;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #22c55e;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #16a34a;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #444444;
+  --sidebar-ring: #22c55e;
+}
+
+.dark {
+  --background: #1c1c1c;
+  --foreground: #ffffff;
+  --card: #202020;
+  --card-foreground: #ffffff;
+  --popover: #202020;
+  --popover-foreground: #ffffff;
+  --primary: #22c55e;
+  --primary-foreground: #ffffff;
+  --secondary: #2a2a2a;
+  --secondary-foreground: #ffffff;
+  --muted: #333333;
+  --muted-foreground: #aaaaaa;
+  --accent: #16a34a;
+  --accent-foreground: #ffffff;
+  --destructive: #e11d48;
+  --border: #444444;
+  --input: #333333;
+  --ring: #22c55e;
+
+  --sidebar: #1c1c1c;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #22c55e;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #16a34a;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #444444;
+  --sidebar-ring: #22c55e;
+}
+
+@layer base {
+  body {
+    @apply bg-[--background] text-[--foreground];
+  }
+}
