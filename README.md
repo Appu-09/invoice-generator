@@ -29,3 +29,21 @@ It allows users to:
 - JWT (Authentication)
 - bcryptjs (Password hashing)
 - pdfkit (PDF Invoice generation)
+
+  API Endpoints
+Method	Endpoint	Description
+POST	/api/auth/register	User Registration
+POST	/api/auth/login	User Login (JWT Token)
+POST	/api/products	Add Product
+GET	/api/products	Get All Products
+POST	/api/invoice	Generate Invoice PDF
+
+🚀 Features
+User Authentication with JWT
+
+Product CRUD (Add Product)
+
+Generate Invoice (PDF Download)
+
+Modern React (Redux Toolkit + Vite + React Router)
+
